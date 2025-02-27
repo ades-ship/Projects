@@ -93,7 +93,7 @@ import { IoMdAdd } from "react-icons/io";
 // }
 // export default AddToDo;
 
-
+//
 // updating previous state using spread operator and functioning.
 
 const handleNewItems=(itemName,dueDate)=>{

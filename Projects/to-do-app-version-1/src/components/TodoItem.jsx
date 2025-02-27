@@ -3,7 +3,7 @@ const TodoItem=({todoName,todoDate,handleDeleteItem})=>{
   return <div className="container">
   <div className="row kg-row">
     <div className="col-4">
-      {todoName}
+      {todoName} 
     </div>
     <div className="col-4">
       {todoDate}

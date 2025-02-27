@@ -9,7 +9,7 @@ const ToDoItems = ({ todoItem, settodoItem }) => {
     settodoItem(newItem);
   }
   console.log(todoItem);
-  return (
+  return ( 
     <div>
       {todoItem.map((item) => (
         <TodoItem
