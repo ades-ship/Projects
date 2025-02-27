@@ -1,21 +1,26 @@
+import { useState } from "react";
+import TodoItem from "./TodoItem";
+const ToDoItems = ({ todoItem, settodoItem }) => {
+  // const [deleteItem,setdeleteItem]=useState(false);
 
-const TodoItems=()=>{
-  let todoName='buy milk';
-  let todoDate='24-02-2024';
-  return <div class="container">
-  <div class="row kg-row">
-    <div class="col-4">
-      {todoName}
+  const handleDeleteItem=(itemName)=>{
+    const newItem=todoItem.filter(item=> item.name !== itemName);
+   
+    settodoItem(newItem);
+  }
+  console.log(todoItem);
+  return (
+    <div>
+      {todoItem.map((item) => (
+        <TodoItem
+          key={item.name}
+          todoDate={item.dueDate}
+          todoName={item.name}
+          // deleteItem={deleteArray.includes(item.name)}
+          handleDeleteItem={handleDeleteItem}
+        />
+      ))}
     </div>
-    <div class="col-4">
-      {todoDate}
-    </div>
-    <div class="col-2">
-      <button type="button" className="btn btn-danger kg-button">
-        Delete
-      </button>
-    </div>
-  </div>
-  </div>
-}
-export default TodoItems;
+  );
+};
+export default ToDoItems;
