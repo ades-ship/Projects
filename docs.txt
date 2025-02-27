@@ -1,0 +1,43 @@
+command
+  npm create vite@latest (to create react app with vite tool)
+  npm i (to install  the node package manager dependencies)
+  npm run dev (to the localhost server)
+  localhost is running : http://localhost:5173/
+ 
+this is the docs file
+23-02-25
+    setup vite + reactjs , understand the package.json, project structure.
+    complete the basic foundation . 
+All topics are covered
+  play the video from 1:54:00 .
+  LEVEL 1
+  introduction {react and componet} 
+  create react app{ide,using vite,project structure}
+  creating react components(file extension, class vs function component,jsx, dynamic and reusable components)
+  (bootstrap foundation include , install,) 
+  project: (todo-app-version1, bharat-clock), 
+  LEVEL 2
+  fragments, rending lists using map method,conditonal rending, data passing via props, CSS Modules.
+  LEVEL 3
+  {passing components as children, handling events, passing functions via props}
+  state management (useState to manage component state, state vs props,)
+  
+  LEVEL 4 
+  react-icon library, inspecting with react dev tools, how react works, react vs angular vs vue, forms in react, useRef hook, spread operator and functional updates.
+
+
+
+resource
+  youtube: complete coding by prashant sir
+
+remaining task
+  complete the git video and make the nodes in the infosys laptop.
+
+blocker
+  any blocker is here.
+  (to-do-app-v-1:)
+      if somebody clicked on add button prior to giving the input field . ideal items should not be added in the iternary.
+      when ui is loaded , already one item is showing in the iternary. (its should not be happening);
+   
+   
+
